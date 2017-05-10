@@ -13,7 +13,7 @@ div.last{
 div.red {
 	display: none;
   	position: relative;
-  	height: 200px;
+  	height: 300px;
 }
 div#one{
 	color: red;
@@ -22,7 +22,7 @@ div#one{
 }
 div#two{
 	color: yellow;
-	font-size: 24;
+	font-size: 28;
 	font-family: "monospace", OCR A Std, monospace;
 	align-self: right;
 	text-align: center;
@@ -31,7 +31,7 @@ div#two{
 }
 div#three{
 	color: green;
-	font-size: 24;
+	font-size: 28;
 	font-family: "cursive", Comic Sans, cursive;
 	align-self: right;
 	text-align: center;
@@ -40,7 +40,7 @@ div#three{
 }
 div#four{
 	color: rgb(255,140,0);
-	font-size: 22;
+	font-size: 28;
 	font-family: "serif", New Century Schoolbook, serif;
 	align-self: right;
 	text-align: center;
@@ -49,7 +49,7 @@ div#four{
 }
 div#five{
 	color: blue;
-	font-size: 24;
+	font-size: 28;
 	font-family: "sans-serif", Avantgarde, sans-serif;
 	align-self: right;
 	text-align: center;
@@ -58,7 +58,7 @@ div#five{
 }
 div#six{
 	color: pink;
-	font-size: 24;
+	font-size: 28;
 	font-family: "fantasy", Jazz LET, fantasy;
 	align-self: center;
 	text-align: center;
