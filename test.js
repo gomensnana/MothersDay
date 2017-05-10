@@ -29,12 +29,37 @@ $("#clickThree").click(function(){
 	$("#clickThree").fadeOut(700);
 	$("#four").fadeIn(1200);
 	$("#heartFour").fadeIn(1200);
+	$("#clickFourTwo").fadeIn(1200);
+});
+//Amended in photos so the labeling becomes confusing here
+$("#clickFourTwo").click(function(){
+	$("#four").fadeOut(700)
+	$("#heartFour").fadeOut(700);
+	$("#clickFourTwo").fadeOut(700);
+	$("#fourTwo").fadeIn(1200);
+	$("#paint").fadeIn(1200);
+	$("#clickFourThree").fadeIn(1200);
+});
+$("#clickFourThree").click(function(){
+	$("#fourTwo").fadeOut(700)
+	$("#paint").fadeOut(700);
+	$("#clickFourThree").fadeOut(700);
+	$("#fourThree").fadeIn(1200);
+	$("#lift").fadeIn(1200);
+	$("#clickFourFour").fadeIn(1200);
+});
+$("#clickFourFour").click(function(){
+	$("#fourThree").fadeOut(700)
+	$("#lift").fadeOut(700);
+	$("#clickFourFour").fadeOut(700);
+	$("#fourFour").fadeIn(1200);
+	$("#youth").fadeIn(1200);
 	$("#clickFour").fadeIn(1200);
 });
 $("#clickFour").click(function(){
-	$("#four").fadeOut(700)
-	$("#heartFour").fadeOut(700);
-	$("#clickFour").fadeOut(700);
+	$("#fourFour").fadeOut(700)
+	$("#youth").fadeOut(700);
+	$("#clickFourFour").fadeOut(700);
 	$("#five").fadeIn(1200);
 	$("#heartFive").fadeIn(1200);
 	$("#clickFive").fadeIn(1200);

@@ -47,6 +47,33 @@ div#four{
 	float: right;
 	max-width: 700px;
 }
+div#fourTwo{
+	color: rgb(255,140,0);
+	font-size: 28;
+	font-family: "serif", New Century Schoolbook, serif;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#fourThree{
+	color: rgb(255,140,0);
+	font-size: 28;
+	font-family: "serif", New Century Schoolbook, serif;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#fourFour{
+	color: rgb(255,140,0);
+	font-size: 28;
+	font-family: "serif", New Century Schoolbook, serif;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
 div#five{
 	color: blue;
 	font-size: 28;
@@ -87,6 +114,24 @@ button#clickTwo{
 	bottom: 0;
 }
 button#clickThree{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickFourTwo{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickFourThree{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickFourFour{
 	display: none;
 	position: absolute;
 	right: 0;
