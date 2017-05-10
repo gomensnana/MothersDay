@@ -11,9 +11,9 @@ div.last{
 	height: 200px;
 }
 div.red {
-	border-top-style: ridge;
+	/*border-top-style: ridge;
 	border-left-style: ridge;
-	border-right-style: ridge;
+	border-right-style: ridge;*/
   	display: none;
   	position: relative;
   	height: 200px;
