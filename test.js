@@ -100,12 +100,6 @@ $(document).ready(function(){
         $(this).removeClass('larger');
     });
 });
-$("img").on("touchstart",function(e){
-	"use strict";
-	var pic = $(this);
-	if(pic.hasClass("larger")){
-		pic.removeClass("larger");
-	} else{
-		pic.addClass("larger");
-	}
+$("img").on("touchend",function(e){
+	$(this).removeClass('larger');
 });
