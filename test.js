@@ -100,3 +100,10 @@ $(document).ready(function(){
         $(this).removeClass('larger');
     });
 });
+$("img").on("touchstart",function(e){
+	if($(this).hasClass("larger")){
+		$(this).removeClass("larger");
+	} else{
+		$(this).addClass("larger");
+	}
+});
