@@ -98,7 +98,7 @@ div#seven{
 	font-family: "fantasy", Jazz LET, fantasy;
 	align-self: center;
 	text-align: center;
-	float: center;
+	float: left;
 	max-width: 700px;	
 }
 button#clickOne{
