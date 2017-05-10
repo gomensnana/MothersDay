@@ -101,9 +101,11 @@ $(document).ready(function(){
     });
 });
 $("img").on("touchstart",function(e){
-	if($(this).hasClass("larger")){
-		$(this).removeClass("larger");
+	"use strict";
+	var pic = $(this);
+	if(pic.hasClass("larger")){
+		pic.removeClass("larger");
 	} else{
-		$(this).addClass("larger");
+		pic.addClass("larger");
 	}
 });
