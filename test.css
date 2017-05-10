@@ -5,7 +5,11 @@ li.redLi {
   color: red;
   font-weight: bold;
 }
-
+div.last{
+	display:none;
+	position: relative;
+	height: 200px;
+}
 div.red {
 	border-top-style: ridge;
 	border-left-style: ridge;

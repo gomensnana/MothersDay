@@ -61,8 +61,8 @@ $("#clickFive").click(function(){
 	$("#heartOne").fadeIn(2000);
 	$("#heartTwo").fadeIn(3000);
 	$("#heartThree").fadeIn(4000);
-	$("#heartFour").fadeIn(5000);
-	$("#heartFive").fadeIn(6000);
+	$("#heartFour").fadeIn(6000); 
+	$("#heartFive").fadeIn(5000); //no matter what this img loads in slower than the rest. No idea why, because it's '.JPG'?
 	$("#six").fadeIn(7000);
 	$("#seven").fadeIn(10000);
 });
