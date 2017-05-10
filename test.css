@@ -1,0 +1,121 @@
+html{
+	background: black;
+}
+li.redLi {
+  color: red;
+  font-weight: bold;
+}
+
+div.red {
+	border-top-style: ridge;
+	border-left-style: ridge;
+	border-right-style: ridge;
+  	display: none;
+  	position: relative;
+  	height: 200px;
+}
+div#one{
+	color: red;
+	font-size: 32;
+	font-family: "fantasy", Jazz LET, fantasy;
+}
+div#two{
+	color: yellow;
+	font-size: 24;
+	font-family: "monospace", OCR A Std, monospace;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#three{
+	color: green;
+	font-size: 24;
+	font-family: "cursive", Comic Sans, cursive;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#four{
+	color: rgb(255,140,0);
+	font-size: 22;
+	font-family: "serif", New Century Schoolbook, serif;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#five{
+	color: blue;
+	font-size: 24;
+	font-family: "sans-serif", Avantgarde, sans-serif;
+	align-self: right;
+	text-align: center;
+	float: right;
+	max-width: 700px;
+}
+div#six{
+	color: pink;
+	font-size: 24;
+	font-family: "fantasy", Jazz LET, fantasy;
+	align-self: center;
+	text-align: center;
+	float: right;
+	max-width: 700px;	
+}
+div#seven{
+	color: red;
+	font-size: 36;
+	font-family: "fantasy", Jazz LET, fantasy;
+	align-self: center;
+	text-align: center;
+	float: center;
+	max-width: 700px;	
+}
+button#clickOne{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickTwo{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickThree{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickFour{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+button#clickFive{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+p.red {
+  color: red;
+  font-weight: bold;
+}
+img.resize{
+	/*max-width: 20%;
+	max-height: 20%;*/
+	display: none;
+}
+img.smaller{
+	max-width: 20%;
+	max-height: 20%;
+}
+img.larger{
+	transform: scale(2);
+}
