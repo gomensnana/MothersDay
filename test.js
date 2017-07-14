@@ -46,20 +46,20 @@ $("#clickFourThree").click(function(){
 	$("#clickFourThree").fadeOut(700);
 	$("#fourThree").fadeIn(1200);
 	$("#lift").fadeIn(1200);
-	$("#clickFourFour").fadeIn(1200);
+	$("#clickFour").fadeIn(1200); // used to be clickFourFour
 });
-$("#clickFourFour").click(function(){
+/*$("#clickFourFour").click(function(){
 	$("#fourThree").fadeOut(700)
 	$("#lift").fadeOut(700);
 	$("#clickFourFour").fadeOut(700);
 	$("#fourFour").fadeIn(1200);
 	$("#youth").fadeIn(1200);
 	$("#clickFour").fadeIn(1200);
-});
+});*/
 $("#clickFour").click(function(){
-	$("#fourFour").fadeOut(700)
-	$("#youth").fadeOut(700);
-	$("#clickFourFour").fadeOut(700);
+	$("#fourThree").fadeOut(700)	// $("#fourFour").fadeOut(700) - formerly
+	$("#lift").fadeOut(700); 	// $("#youth").fadeOut(700); - formerly
+	$("#clickFourFour").fadeOut(700); // $("#clickFourFour").fadeOut(700); - formerly
 	$("#five").fadeIn(1200);
 	$("#heartFive").fadeIn(1200);
 	$("#clickFive").fadeIn(1200);
